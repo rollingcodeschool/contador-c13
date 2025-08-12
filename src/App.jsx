@@ -1,4 +1,5 @@
 import Bienvenidos from "./components/Bienvenidos";
+import Contador from "./components/Contador";
 import TeoriaComponente from "./components/TeoriaComponente";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       {/* <Bienvenidos  ></Bienvenidos> */}
       <Bienvenidos/>
       <TeoriaComponente comision='Web 13' modulo={modulo}/>
+      <Contador></Contador>
     </main>
   );
 }
