@@ -3,6 +3,7 @@ import TeoriaComponente from "./components/TeoriaComponente";
 
 function App() {
   // aqui agrego la logica de un componente
+  const modulo = 2;
 
   return (
     // aqui puedo agregar mas logica
@@ -10,7 +11,7 @@ function App() {
       <h1>Hola mundo</h1>
       {/* <Bienvenidos  ></Bienvenidos> */}
       <Bienvenidos/>
-      <TeoriaComponente comision='Web 13'/>
+      <TeoriaComponente comision='Web 13' modulo={modulo}/>
     </main>
   );
 }
