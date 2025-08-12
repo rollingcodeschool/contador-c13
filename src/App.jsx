@@ -8,9 +8,9 @@ function App() {
     // aqui puedo agregar mas logica
     <main className="container my-5">
       <h1>Hola mundo</h1>
-      {/* <Bienvenidos></Bienvenidos> */}
+      {/* <Bienvenidos  ></Bienvenidos> */}
       <Bienvenidos/>
-      <TeoriaComponente/>
+      <TeoriaComponente comision='Web 13'/>
     </main>
   );
 }
